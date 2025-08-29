@@ -6,7 +6,7 @@ int main()
 {
     ll n;
     cin >> n;
-    vector<pair<ll, ll>> v(n);
+    vector<pair<ll, ll>> v;
     multimap<ll, ll> mpp;
     for (int i = 0; i < n; i++)
     {
